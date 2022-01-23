@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<p>only for testing and fast proccessing please upload with minimum file data</p>
 
-		<form action="Home/submit_file" method="POST">
+		<form action="Home/submit_file" method="POST" enctype="multipart/form-data">
 
 		<code><input type="file" name="Excel_File"></code>
 
@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<code><input type="submit" value="Upload"></code>
 
 	</form>
-		
+		<a href="Home/showTable">Check Table Here</a>
 	</div>
 
 

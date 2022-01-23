@@ -16,4 +16,9 @@ public function submit_file()
 	}
 
 
+	###showTable
+	public function showTable(){
+		echo "Table here";
+	}
+
 }
