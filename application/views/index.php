@@ -71,18 +71,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Welcome to CodeIgniter!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>Upload here your Excel Sheet</p>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code><input type="file"></code>
+		<p>only for testing and fast proccessing please upload with minimum file data</p>
+		<code><input type="file" name="Excel_File"></code>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
+		
+		<code><input type="submit" value="Upload"></code>
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+
 </div>
 
 </body>
