@@ -74,11 +74,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>Upload here your Excel Sheet</p>
 
 		<p>only for testing and fast proccessing please upload with minimum file data</p>
+
+		<form action="Home/submit_file" method="POST">
+
 		<code><input type="file" name="Excel_File"></code>
 
 		
 		<code><input type="submit" value="Upload"></code>
 
+	</form>
 		
 	</div>
 
